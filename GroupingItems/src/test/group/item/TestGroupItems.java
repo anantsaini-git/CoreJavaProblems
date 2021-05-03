@@ -3,6 +3,7 @@ package test.group.item;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Before;
@@ -27,22 +28,19 @@ public class TestGroupItems {
 		testList.add("veggie:potato");
 		testList.add("fruit:banana");
 		
-		testList.add("veggie:tomato");
-		testList.add("fruit:kiwi");
-		
 		groupItems.setItemList(testList );
 	}
 
 	@Test
 	public void testFruitItems() {
-		String resultFruitValue = new String("apple,banana,kiwi");
+		List<String> resultFruitValue = Arrays.asList("apple","banana");
 		
 		assertEquals(resultFruitValue, groupItems.arrangeItems().get("fruit"));
 	}
 	
 	@Test
 	public void testVeggieItems() {
-		String resultVeggieValue = new String("potato,tomato");
+		String resultVeggieValue = new String("potato");
 		
 		assertEquals(resultVeggieValue, groupItems.arrangeItems().get("veggie"));
 	}
