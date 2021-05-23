@@ -1,4 +1,4 @@
-package com.practise.java8.lambda;
+package com.practise.lambda;
 
 public class TestLambda {
 

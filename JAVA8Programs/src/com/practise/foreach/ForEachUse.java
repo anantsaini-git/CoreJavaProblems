@@ -1,4 +1,4 @@
-package com.practise.java8.foreach;
+package com.practise.foreach;
 
 import java.util.Arrays;
 import java.util.List;

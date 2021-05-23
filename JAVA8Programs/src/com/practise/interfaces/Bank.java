@@ -1,4 +1,4 @@
-package com.practise.java8.interfaces;
+package com.practise.interfaces;
 
 public interface Bank {
 	
