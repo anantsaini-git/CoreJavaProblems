@@ -19,4 +19,5 @@ Concurrency Enhancements,
 JDBC Enhancements etc.
 
 This project have programs for below features:
-1. 
+1. Lambda expressions
+2. Method references
