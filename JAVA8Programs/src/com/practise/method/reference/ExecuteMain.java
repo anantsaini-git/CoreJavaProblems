@@ -46,7 +46,7 @@ public class ExecuteMain {
 		SampleFunctionalInterface sfi = (str) -> {
 			System.out.println(str);
 		};
-		sfi.print("Test");
+		sfi.print("Test using lambda");
 
 		// Through method reference
 		SampleFunctionalInterface sfi2 = ExecuteMain::useStaticPrint;

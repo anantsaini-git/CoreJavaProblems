@@ -38,7 +38,6 @@ public class ThreadsBasic_functions {
 			t1.join();
 			threadRunner.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

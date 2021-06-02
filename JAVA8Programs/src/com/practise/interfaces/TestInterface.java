@@ -12,7 +12,6 @@ public class TestInterface implements Bank, Loan {
 	// because both Interface have same default method
 	@Override
 	public String getBankName() {
-		// TODO Auto-generated method stub
 		return Bank.super.getBankName();
 	}
 }
