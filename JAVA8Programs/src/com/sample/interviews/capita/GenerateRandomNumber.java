@@ -1,4 +1,4 @@
-package com.practise.random;
+package com.sample.interviews.capita;
 
 import java.util.Random;
 
@@ -12,6 +12,9 @@ public class GenerateRandomNumber {
 		r.longs(5, 1, 5).forEach(
 				n -> System.out.println(n)
 						);
+		
+		for(int i = 0; i < 5; i++)
+			System.out.println(r.nextBoolean());
 		
 	}
 
